@@ -1,0 +1,1 @@
+Bu repodaki kodlar patika.dev Java101 dersleri icin olusturulmustur.
