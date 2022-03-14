@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class KullaniciGirisi {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-String adi,sifre,yenisif;
+String adi,sifre;
 int a;
 System.out.print("Kullanici adinizi giriniz: ");
 adi = input.nextLine();
