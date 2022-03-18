@@ -5,7 +5,7 @@ public class Kombinasyon {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
             int i,n,r,toplamn=1,toplamr=1,toplamm=1,komb;
-            System.out.print("Kombinasyon n sayisini giriniz: ");
+            System.out.print("C(n,r)\nKombinasyon n sayisini giriniz: ");
             n = input.nextInt();
             System.out.print("Kombinasyon r sayisini giriniz: ");
             r = input.nextInt();
@@ -23,7 +23,7 @@ public class Kombinasyon {
                 
             komb = toplamn / (toplamr * toplamm);
             
-                   System.out.println("Kombinayonun sonucu = "+komb);
+                   System.out.println(" C(n,r) = "+komb);
                     input.close();
         }
     }
