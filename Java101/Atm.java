@@ -5,7 +5,7 @@ public class Atm {
 public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 String kullaniciadi,sifre;
-int bakiye=10000,yattut,cektut,iban;
+int bakiye=10000,yattut,cektut;
 System.out.print("Kullanici Adinizi Giriniz: ");
 kullaniciadi = input.nextLine();
 System.out.print("\nSifrenizi Giriniz: ");
@@ -41,8 +41,7 @@ System.out.println("Para cekme islemi basarili !\nGuncel bakiyeniz: " + bakiye+"
           break;
           case 4:
       System.out.print("EFT/Havale yapmak istediginiz iban adresini giriniz: "); 
-iban = input.nextInt();
-System.out.print("Yatirmak istediginiz tutari giriniz: "); 
+        System.out.print("Yatirmak istediginiz tutari giriniz: "); 
 yattut = input.nextInt();
 if(yattut <= bakiye){
 bakiye -= yattut;

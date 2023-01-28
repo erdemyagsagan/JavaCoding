@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class SayiBasamaklari {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-int i,basamakSay;
+int i;
 System.out.print("Sayi giriniz: ");
 i = input.nextInt();
 
